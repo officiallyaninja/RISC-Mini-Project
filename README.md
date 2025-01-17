@@ -11,8 +11,8 @@ Note:
 # Coding
 
 ## Register File
-Claimed By: ~  
-Status: Unclaimed  
+Claimed By: Vasanthi 
+Status: In-progress  
 
 ## Data Memory
 Claimed By: Arjun  
