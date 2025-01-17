@@ -11,7 +11,7 @@ Note:
 # Coding
 
 ## Register File
-Claimed By: Vasanthi 
+Claimed By: Vasanthi  
 Status: In-progress  
 
 ## Data Memory
@@ -23,7 +23,7 @@ Claimed By: Arjun
 Status: In-Progress  
 
 ## Decoder
-Claimed By: Civin 
+Claimed By: Civin  
 Status:  In-Progress 
 
 ## Program Counter
