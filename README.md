@@ -23,8 +23,8 @@ Claimed By: Arjun
 Status: In-Progress  
 
 ## Decoder
-Claimed By: ~  
-Status:   
+Claimed By: Civin 
+Status:  In-Progress 
 
 ## Program Counter
 Claimed By: ~  
