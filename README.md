@@ -1,3 +1,7 @@
+Note:
+- Make each module a single folder with a single verilog file for the module, and another verilog file for the test bench
+- Do not delete anything from the readme, only strikeout so as to preserve knowledge of work done
+
 # Design
 
 - Remove subroutines/stack
