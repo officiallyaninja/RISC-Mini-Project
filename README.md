@@ -4,9 +4,9 @@ Note:
 
 # Design
 
-- Remove subroutines/stack
-- Add bit addressable instructions
-- Swap bytes?
+- ~~Remove subroutines/stack~~
+- ~~Add bit addressable instructions~~
+- ~~Swap bytes?~~
  
 # Coding
 
