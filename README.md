@@ -14,11 +14,11 @@ Note:
 # Coding
 
 ## ALU
-Claimed By: Arjun, Vasanthi
+Claimed By: Arjun, Vasanthi   
 Status: In-Progress 
 
 ## Control Unit
-Claimed By: Arjun, Vasanthi
+Claimed By: Arjun, Vasanthi   
 Status: In-Progress
 
 ## Data Memory
@@ -30,8 +30,8 @@ Claimed By: Arjun
 Status: In-Progress  
 
 ## Program Counter
-Claimed By: Anagha
-Taken over By: Vasanthi 
+Claimed By: Anagha   
+Taken over By: Vasanthi   
 Status: Complete
 
 ## Register File
