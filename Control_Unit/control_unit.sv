@@ -19,22 +19,21 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module control_unit(
     input clk,
     input [16:0] instruction,
     output [2:0] reg_sel_r0, // connected to reg file r0 select port
     output [2:0] reg_sel_r1, // connected to reg file r1 select port
     output [2:0] reg_sel_w0, // connected to reg file w0 select port
-    output reg_w0_rw, // connected to reg file r/w port
+    output reg_w0_rw // connected to reg file r/w port
     );
 
-    localparam opcode = instruction[15:11];
-    localparam operand = instruction[10:0];
+    wire [4:0] opcode = instruction[15:11];
+    wire [11:0] operand = instruction[10:0];
 
-    localparam reg_arg_1 = operand[10:8];
-    localparam reg_arg_2 = operand[7:5];
-    localparam reg_arg_3 = operand[4:2];
+    wire [2:0] reg_arg_1 = operand[10:8];
+    wire [2:0] reg_arg_2 = operand[7:5];
+    wire [2:0] reg_arg_3 = operand[4:2];
 
 
 always @(posedge clk) begin
@@ -46,7 +45,7 @@ always @(posedge clk) begin
         reg_sel_r1 <= reg_arg_3; // 
 
       end
-        default:
+        default: $display("unimplemented");
     endcase
-
+  end
 endmodule
