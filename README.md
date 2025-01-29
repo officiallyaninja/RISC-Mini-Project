@@ -7,12 +7,19 @@ Note:
 - ~~Remove subroutines/stack~~
 - ~~Add bit addressable instructions~~
 - ~~Swap bytes?~~
+- ~~Reorganized instruction set~~
+- ~~Added Control unit~~
+- ~~Using Mux and Demux, instead of centralized bus~~
  
 # Coding
 
-## Register File
-Claimed By: Vasanthi  
-Status: In-progress  
+## ALU
+Claimed By: Arjun, Vasanthi
+Status: In-Progress 
+
+## Control Unit
+Claimed By: Arjun, Vasanthi
+Status: In-Progress
 
 ## Data Memory
 Claimed By: Arjun  
@@ -22,10 +29,15 @@ Status: In-Progress
 Claimed By: Arjun  
 Status: In-Progress  
 
+## Program Counter
+Claimed By: Anagha
+Taken over By: Vasanthi 
+Status: Complete
+
+## Register File
+Claimed By: Vasanthi  
+Status: Complete 
+
 ## Decoder
 Claimed By: Civin  
-Status:  In-Progress 
-
-## Program Counter
-Claimed By: Anagha 
-Status: In-Peogress  
+Status:  Complete 
