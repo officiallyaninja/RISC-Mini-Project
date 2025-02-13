@@ -295,7 +295,7 @@ module ALU_tb();
         end
     endtask
     
-    // Optional: Wave dump
+    // Wave dump
     initial begin
         $dumpfile("alu_test.vcd");
         $dumpvars(0, ALU_tb);
