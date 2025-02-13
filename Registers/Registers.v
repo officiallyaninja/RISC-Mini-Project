@@ -1,4 +1,4 @@
-module registers(
+module Registers(
     input wire clk,			// clock
     input wire rst,			// RESET
     input wire [1:0] write_en,		// Read/ Write signal, conected to control unit

@@ -12,7 +12,7 @@ module registers_tb();
     wire [15:0] read_data_0;
     wire [15:0] read_data_1;
     
-    registers uut (
+    Registers uut (
         .clk(clk),
         .rst(rst),
         .write_en(write_en),
